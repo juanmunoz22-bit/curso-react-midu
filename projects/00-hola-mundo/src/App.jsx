@@ -7,15 +7,15 @@ export function App() {
     <section className='App'>
       <TwitterFollowCard
         isFollowing
-        userName="midudev"
-        name="Miguel Angel Duran"
-      />
+        userName="midudev">
+        Miguel Ángel Durán
+      </TwitterFollowCard>
 
       <TwitterFollowCard
         isFollowing={false}
-        userName="juanmunoz"
-        name="Juan Munoz"
-      />
+        userName="juanmunoz">
+        Juan Muñoz
+      </TwitterFollowCard>
     </section>
   )
 }
