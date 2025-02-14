@@ -15,7 +15,7 @@ function App() {
       console.log('Debounced', query);
       getMovies({ query })
     }, 500)
-    , []
+    , []  // puedo pasar getMovies o no hacerlo, en este caso no lo paso porque no lo necesito ya que getMovies no cambia
   )
 
   const handleSubmit = (event) => {
