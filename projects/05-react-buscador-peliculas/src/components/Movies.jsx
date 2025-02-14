@@ -1,7 +1,6 @@
 /* eslint-disable react/prop-types */
 
 function ListOfMovies({ movies }) {
-  console.log('poster', movies[0].image);
   
   return (
     <ul className='movies'>
@@ -27,8 +26,6 @@ function NoMoviesResult() {
 export function Movies({ movies }) {
 
   const hasMovies = movies?.length > 0
-  console.log('movies', movies);
-  
 
   return (
     hasMovies
